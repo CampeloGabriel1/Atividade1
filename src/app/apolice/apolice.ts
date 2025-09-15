@@ -14,7 +14,7 @@ export class Apolice {
   valor = 0;
 
   calcularApolice() {
-    if (this.sexo === 'masculino') {
+    if (this.sexo === 'masculino' || this.sexo === 'Masculino' || this.sexo === 'MASCULINO') {
       if (this.idade <= 25) {
         this.valor = this.valorAutomovel * 0.15;
       } else {
