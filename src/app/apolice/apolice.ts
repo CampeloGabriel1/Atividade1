@@ -20,7 +20,7 @@ export class Apolice {
       } else {
         this.valor = this.valorAutomovel * 0.1;
       }
-    } else if (this.sexo === 'feminino') {
+    } else if (this.sexo === 'feminino' || this.sexo === 'Feminino' || this.sexo === 'FEMININO') {
       this.valor = this.valorAutomovel * 0.08;
     }
     return this.valor;

@@ -4,9 +4,11 @@ import { CalcularMedia } from './calcular-media/calcular-media';
 import { Apolice } from './apolice/apolice';
 import { ConversorTemperatura } from './conversor-temperatura/conversor-temperatura';
 import { CalculadoraImc } from './calculadora-imc/calculadora-imc';
+import { Home } from './home/home';
+import { MenuSuperior } from './menu-superior/menu-superior';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'menu-superior', component: MenuSuperior },
   { path: 'calcular-media', component: CalcularMedia },
   { path: 'apolice', component: Apolice },
   { path: 'conversor-temperatura', component: ConversorTemperatura },
